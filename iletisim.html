@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Doğan Holding</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="sabit-uyari">Bu site Web Tasarım dersi kapsamında yapılmıştır ve sitedeki bilgilerin geçerliliği yoktur.</div>
+    <header>
+        <div class="logo">DOĞAN HOLDİNG</div>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="faaliyetler.html">Faaliyet Alanları</a></li>
+                <li><a href="surdurulebilirlik.html">Sürdürülebilirlik</a></li>
+                <li><a href="iletisim.html" style="color:#002B5C; font-weight:bold;">İletişim</a></li>
+            </ul>
+            <button id="menuBtn" class="menu-btn">☰ Menü</button>
+        </nav>
+    </header>
+
+    <section class="hero" style="padding: 60px 5%; height: auto;">
+        <h1 style="text-align: center;">Bize Ulaşın</h1>
+        <p style="text-align: center;">Görüşleriniz, sorularınız ve yatırımcı ilişkileri için bizimle iletişime geçin.</p>
+    </section>
+
+    <section style="display: flex; flex-wrap: wrap; gap: 40px;">
+        <div style="flex: 1; min-width: 300px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+            <h2 style="color: #002B5C; margin-bottom: 20px;">İletişim Bilgilerimiz</h2>
+            <p><strong>Genel Müdürlük:</strong><br>Burhaniye Mahallesi Kısıklı Caddesi No: 65<br>34676 Üsküdar / İstanbul</p>
+            <p style="margin-top: 15px;"><strong>Telefon:</strong> +90 (216) 556 90 00</p>
+            <p style="margin-top: 15px;"><strong>E-posta:</strong> info@doganholding.com.tr</p>
+            
+            <div style="margin-top: 30px; padding: 20px; background-color: #f0f4f8; border-radius: 5px;">
+                <h4 style="color: #00509E;">Yatırımcı İlişkileri</h4>
+                <p style="font-size: 14px;">ir@doganholding.com.tr adresi üzerinden yatırımcı ilişkileri departmanımıza ulaşabilirsiniz.</p>
+            </div>
+        </div>
+
+        <div style="flex: 1; min-width: 300px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+            <h2 style="color: #002B5C; margin-bottom: 20px;">İletişim Formu</h2>
+            <form id="iletisimFormu">
+                <div class="form-grup">
+                    <label for="adSoyad">Adınız Soyadınız *</label>
+                    <input type="text" id="adSoyad" placeholder="Örn: Ahmet Yılmaz">
+                </div>
+                <div class="form-grup">
+                    <label for="mesaj">Mesajınız *</label>
+                    <textarea id="mesaj" rows="5" placeholder="Görüş veya önerilerinizi buraya yazabilirsiniz..."></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%; background-color: #002B5C; color: white;">Mesajı Gönder</button>
+            </form>
+            <p id="formUyari" class="uyari-mesaji"></p>
+        </div>
+    </section>
+
+    <footer><div class="footer-alt">&copy; 2026 Doğan Holding. Tüm hakları saklıdır.</div></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
